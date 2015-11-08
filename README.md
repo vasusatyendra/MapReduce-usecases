@@ -59,6 +59,6 @@ public void reduce(Text anagramKey, Iterator<Text> anagramValues,
                 outputKey.set(anagramKey.toString());
                 outputValue.set(outputText);
                 results.collect(outputKey, outputValue);
-        }
+        } 
 
 
